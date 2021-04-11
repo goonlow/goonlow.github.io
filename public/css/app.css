@@ -1,0 +1,76 @@
+/* Colours from materialpalette.com/blue-grey/blue */
+.dark-primary-color    { background: #455A64; }
+.default-primary-color { background: #607D8B; }
+.light-primary-color   { background: #CFD8DC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #448AFF; }
+.accent-text-color     { color: #448AFF; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#header {
+    padding: 0 1rem 3rem 1rem;
+    border-bottom: 4px solid;
+}
+
+.input-container {
+    position: relative;
+}
+
+.recipe-search-container {
+    text-align: center;
+    padding-top: 1rem;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.recipe-search-container .a {
+    cursor: pointer;
+}
+
+.input-container.has-icon i {
+    position: absolute;
+    top: .7rem;
+    left: .7rem;
+    font-size: 36px;
+}
+
+input {
+    border: 1px solid;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    font-size: 20px;
+}
+
+.input-container.has-icon input {
+    padding-left: 3.5rem;
+}
+
+.icons-container {
+    display: inline-block;
+    width: 100%;
+    padding-left: 0.6rem;
+}
+
+.icons-selected {
+    display: inline-block;
+    width: 340px;
+    border: 2px solid;
+    padding: 0.5rem;
+}
+
+.icons-selected .a {
+    top: 5px;
+}
+
+.icons-selected .clear-selection {
+    display: inline-block;
+    cursor: pointer;
+}

@@ -1,0 +1,269 @@
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.r-group {
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.r-group.hidden {
+    display: none;
+}
+
+.r-group p.item-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.recipe {
+    display: inline-block;
+    vertical-align: middle;
+    width: 132px;
+    font-size: 0;
+    border: 1px solid #000;
+    margin: 16px 16px 0 0;
+}
+
+.recipe.hidden {
+    display: none;
+}
+
+.a {
+    background: url(/images/ui_crafting.png) top left no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+}
+
+.a.wildcard {
+    background: url(/images/wildcard.svg) top left no-repeat;
+    cursor: default;
+}
+
+.a:before {
+    display: none;
+    position: absolute;
+    top: -44px;
+    left: -71.5px;
+    right: 0;
+    width: 175px;
+    background: #000;
+    padding: 8px 4px;
+    font-size: 13px;
+    margin: auto;
+    z-index: 111111111;
+    box-sizing: border-box;
+    text-align: center;
+    color: #448AFF;
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.a:hover:before {
+    display: block;
+}
+
+.b {
+    background-position: -32px 0
+}
+
+.b:before {
+    content: 'Red Heart (Quality: 1)'
+}
+
+.c {
+    background-position: -64px 0
+}
+
+.c:before {
+    content: 'Soul Heart (Quality: 4)'
+}
+
+.d {
+    background-position: -96px 0
+}
+
+.d:before {
+    content: 'Black Heart (Quality: 5)'
+}
+
+.e {
+    background-position: -128px 0
+}
+
+.e:before {
+    content: 'Eternal Heart (Quality: 5)'
+}
+
+.f {
+    background-position: -160px 0
+}
+
+.f:before {
+    content: 'Gold Heart (Quality: 5)'
+}
+
+.g {
+    background-position: -192px 0
+}
+
+.g:before {
+    content: 'Bone Heart (Quality: 5)'
+}
+
+.h {
+    background-position: -224px 0
+}
+
+.h:before {
+    content: 'Rotten Heart (Quality: 1)'
+}
+
+.i {
+    background-position: 0 -32px
+}
+
+.i:before {
+    content: 'Penny (Quality: 1)'
+}
+
+.j {
+    background-position: -32px -32px
+}
+
+.j:before {
+    content: 'Nickel (Quality: 3)'
+}
+
+.k {
+    background-position: -64px -32px
+}
+
+.k:before {
+    content: 'Dime (Quality: 5)'
+}
+
+.l {
+    background-position: -96px -32px
+}
+
+.l:before {
+    content: 'Lucky Penny (Quality: 8)'
+}
+
+.m {
+    background-position: -128px -32px
+}
+
+.m:before {
+    content: 'Key (Quality: 2)'
+}
+
+.n {
+    background-position: -160px -32px
+}
+
+.n:before {
+    content: 'Golden Key (Quality: 5)'
+}
+
+.o {
+    background-position: -192px -32px
+}
+
+.o:before {
+    content: 'Charged Key (Quality: 5)'
+}
+
+.p {
+    background-position: -224px -32px
+}
+
+.p:before {
+    content: 'Bomb (Quality: 2)'
+}
+
+.q {
+    background-position: 0 -64px
+}
+
+.q:before {
+    content: 'Golden Bomb (Quality: 6)'
+}
+
+.r {
+    background-position: -32px -64px
+}
+
+.r:before {
+    content: 'Giga Bomb (Quality: 10)'
+}
+
+.s {
+    background-position: -64px -64px
+}
+
+.s:before {
+    content: 'Micro Battery (Quality: 2)'
+}
+
+.t {
+    background-position: -96px -64px
+}
+
+.t:before {
+    content: 'Lil Battery (Quality: 4)'
+}
+
+.u {
+    background-position: -128px -64px
+}
+
+.u:before {
+    content: 'Mega Battery (Quality: 8)'
+}
+
+.v {
+    background-position: -160px -64px
+}
+
+.v:before {
+    content: 'Card (Quality: 2)'
+}
+
+.w {
+    background-position: -192px -64px
+}
+
+.w:before {
+    content: 'Pill (Quality: 2)'
+}
+
+.x {
+    background-position: -224px -64px
+}
+
+.x:before {
+    content: 'Rune / Soul (Quality: 4)'
+}
+
+.y {
+    background-position: 0 -96px
+}
+
+.y:before {
+    content: 'Dice Shard (Quality: 4)'
+}
+
+.z {
+    background-position: -32px -96px
+}
+
+.z:before {
+    content: 'Cracked Key (Quality: 2)'
+}
